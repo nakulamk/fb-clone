@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>facebook clone</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logoSearch">
+        <div class="logo">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="search">
+          <div class="svg">
+            <img src="./svg/search.svg" alt="Search" />
+          </div>
+          <input type="text" placeholder="Search Facebook" />
+        </div>
+      </div>
+
+      <div class="mainMenu">
+        <div class="svg active">
+          <img src="./svg/home.svg" alt="Facebook Home" srcset="" />
+        </div>
+        <div class="svg">
+          <img src="./svg/tv.svg" alt="Facebook Watch" srcset="" />
+        </div>
+        <div class="svg">
+          <img src="./svg/store.svg" alt="Facebook Store" srcset="" />
+        </div>
+        <div class="svg">
+          <img src="./svg/users.svg" alt="Facebook Groups" srcset="" />
+        </div>
+        <div class="svg">
+          <img src="./svg/map.svg" alt="Facebook Play" srcset="" />
+        </div>
+      </div>
+
+      <div class="profileTools">
+        <div class="profile">
+          <div
+            class="img"
+            style="background-image: url(./img/profile.jpg)"
+          ></div>
+          <div class="username">User</div>
+        </div>
+        <div class="tools">
+          <div class="svg">
+            <img src="./svg/plus.svg" alt="Add" />
+          </div>
+          <div class="svg">
+            <img src="./svg/blackberry-messenger.svg" alt="Messages" />
+          </div>
+          <div class="svg">
+            <img src="./svg/bell.svg" alt="Notifications" />
+          </div>
+          <div class="svg">
+            <img src="./svg/down-arrow.svg" alt="Dropdown" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sideBarContainer">
+      <div class="sidebar left">
+        <div class="container borderNone">
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/91659838?v=4);
+              "
+            ></div>
+            <div class="name">Nakula</div>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="background-image: url(./ico/1.png)"
+            ></div>
+            <div class="name">COVID-19 info center</div>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="background-image: url(./ico/2.png)"
+            ></div>
+            <div class="name">Pages</div>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="background-image: url(./ico/3.png)"
+            ></div>
+            <div class="name">Friends</div>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="background-image: url(./ico/4.png)"
+            ></div>
+            <div class="name">Messenger</div>
+          </div>
+          <div class="globalProfile">
+            <div class="globalRoundProfile circle">
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <div class="name">See More</div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="mainTitle">
+            <h3 class="padding">Your Shortcuts</h3>
+            <a href="#">Edit</a>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile r-10"
+              style="background-image: url(./img/code1.jpg)"
+            ></div>
+            <div class="name">Lorem ispum</div>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile r-10"
+              style="background-image: url(./img/code2.jpg)"
+            ></div>
+            <div class="name">Tutorials</div>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile r-10"
+              style="background-image: url(./img/code3.jpg)"
+            ></div>
+            <div class="name">Coding</div>
+          </div>
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile r-10"
+              style="background-image: url(./img/code4.jpg)"
+            ></div>
+            <div class="name">VueJS</div>
+          </div>
+          <div class="globalProfile">
+            <div class="globalRoundProfile circle">
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <div class="name">See More</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar right">
+        <div class="container borderNone">
+          <div class="mainTitle">
+            <h3 class="padding">Your Pages</h3>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="background-image: url(./img/profile.jpg)"
+            ></div>
+            <div class="name">My Page</div>
+          </div>
+
+          <div class="globalProfile globalProfileSmall">
+            <div class="svg">
+              <img src="./svg/bellLight.svg" alt="" />
+            </div>
+            <div class="name">25 Notifications</div>
+          </div>
+
+          <div class="globalProfile globalProfileSmall">
+            <div class="svg">
+              <img src="./svg/megaphone.svg" alt="" />
+            </div>
+            <div class="name">Create Promotion</div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="mainTitle">
+            <h3 class="padding">Contacts</h3>
+            <div class="items icons">
+              <i class="fas fa-video"></i>
+              <i class="fas fa-search"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://pbs.twimg.com/profile_images/1256153505452130312/edFTku62_400x400.jpg);
+              "
+            >
+              <div class="active"></div>
+            </div>
+            <div class="name">Puneeth Rajkumar</div>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/91659838?v=4);
+              "
+            >
+              <div class="active"></div>
+            </div>
+            <div class="name">Nakula mk</div>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/41890434?v=4);
+              "
+            >
+              <div class="active"></div>
+            </div>
+            <div class="name">Chandan s gowda</div>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/81625153?v=4);
+              "
+            >
+              <div class="active"></div>
+            </div>
+            <div class="name">Akash n</div>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(data:image/jpeg;base64,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);
+              "
+            >
+              <div class="active"></div>
+            </div>
+            <div class="name">karthik sureja</div>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/74780977?v=4);
+              "
+            >
+              <div class="active"></div>
+            </div>
+            <div class="name">shivam menda</div>
+          </div>
+
+          <div class="globalProfile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/91659838?v=4);
+              "
+            >
+              <div class="active"></div>
+            </div>
+            <div class="name">bramha keerthi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sectionCenter">
+      <div class="story">
+        <div class="cover">
+          <div class="create">
+            <div class="svg">
+              <img src="./svg/plusWhite.svg" alt="Create Story" />
+            </div>
+            <h3>
+              Create a <br />
+              Story
+            </h3>
+          </div>
+          <div
+            class="bg"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/95900008?v=4);
+            "
+          >
+            <span></span>
+          </div>
+        </div>
+
+        <div class="cover">
+          <div class="pro">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAwIFBgQHAf/EADYQAAEDAgQDBgMGBwAAAAAAAAEAAgMEEQUSITETQVEGImFxgZEUscEHFTNCofAjJDJDUtHx/8QAGgEAAgMBAQAAAAAAAAAAAAAAAAQBAgMFBv/EACARAAMAAgIDAQEBAAAAAAAAAAABAgMRBEESITEiMgX/2gAMAwEAAhEDEQA/ALtCEJ4qCEIQAJjQotCRVYnQ0Dg2rqoonf4k6+wQVZ3NCmQqiHtNgkkmRuIRA3td4LR7kWVybFoLTcEXBHNG0Y1vsKaPPMAr1jcrAFX4bF+YqyUmYIQhAGSQhCgcBAQpNCAZTdrsW+5sBqKhhtPJ/CgtvndsfTU+i8rpauSaw4Zc4Ekud3ib/vdb/wC0un41Dh4OrfiDcdTlNvqn9jOxtOSyqxKLRzCBCd9eqVz5PBm3Hw1l+Hm9TK83IuG8gAth9luOSivOCTvzQyhz4Ln+h4Fy0eBFzbw8Vr8Z7B4HUAPgifTEEZuEdHDyOixuEdn5MO+0fCoaDimAzZw9w1DQ12YEjw09VnGZO0l9NM/FuMbp/D2mmj4cQ6pim4WFlBPnJBCEIAySEIUDgBNaFBoTWhBSmcGO4dHX0DS++aCZkrLciDr+hKlNSYgWsdR1L4muc25D3XA52A0912VrHPoahrNzGbeYGiXDiM4oWfBRCfNYkZrWb1XN5M1OTZ1+FcXi8de0cmKOxd1HDT09c1ksmYGVzLkkDQevWy5MCpKul7SUbnzSOcZNcxvdux3vbQlOxarxOOlhdHFTF7XA6Egk9BdWnZQS4ljE1bWRsDqWMMHDcS0SO3sdL6A+6zxTTtI25biMVNro1j0pOeknddY8yCEIQBkkBCk0IHGTaE1oTaOinqjaGMkc3HYeqv6LCIqezpbSSeOw9FWrUlPB0VMWGVFbh1U+lLRNkIhD9nO6H5eqz4pqqnZxaIAPBOeCTQX5+RXpsTbCw1VJ2jwtz2OraUDij8Rm2cdfP5pHPu/Z0OJU4/y++zzrF8XrnRZPur4eQ93jPc0jz0NyvQez1DHh+DUkEY7xja+R3N7yAXE+qw+MOkfSvk4brsv3XNsb+K3uHNNPh1G2ZuQuiGh5HeyOJS29h/oxXitPZ0uSXJ7kly6BxyKEIQQZMBduGUnxdUyLZu7j4LkaFe9mmjizuI1DRZRT0hv69GkgjjijayNoaxuwC+S2AzcraqQSs4yNzbHulKmwxhLbX3+a56qMTyjiklrdWt5X6+abAS+FpO4uFCXkehUElPjeHGpqKWobkyMu2bNfUctOevzX0Usks8ck8znuaC3vDTX/AIFZusWTsIBsw29QktFrjoUKUtlndNJPo52Z4Wi5LmEm4P5Ux6jI8cOoJtbhOcPP9gKX5R5JnG/QnnST2iCEIVxczDQr7s5oJepc39LqjYFd9nvxZfIKmT+RmX+zQXsFwzusx45CZp9CQfquqUkM0XFVazObycYyfc/6S4yjvJLIyG7nQJU7msjJLgLak32Ck891pSJI2yNcH6tcCCOqgBVbUGnjbKIZZs5EZZCATq4C+p2F7nwBU5zke88socioP8tC7nc/IpdeT8OXc8ilAVk8jn07AP7hINumhVjGDwI775Bf2VLmOWmbfQud9FfP0GiYgWz9CUIKFcWP/9k=);
+              "
+            ></div>
+          </div>
+          <h3>Chandan S gowda</h3>
+          <div
+            class="bg"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/41890434?v=4);
+            "
+          >
+            <span></span>
+          </div>
+        </div>
+
+        <div class="cover">
+          <div class="pro">
+            <div
+              class="globalRoundProfile"
+              style="background-image: url(./img/3.jpg)"
+            ></div>
+          </div>
+          <h3>Akash N</h3>
+          <div
+            class="bg"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/81625153?v=4);
+            "
+          >
+            <span></span>
+          </div>
+        </div>
+        <div class="cover">
+          <div class="pro">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(data:image/jpeg;base64,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);
+              "
+            ></div>
+          </div>
+          <h3>Karthik sureja</h3>
+          <div
+            class="bg"
+            style="
+              background-image: url(data:image/jpeg;base64,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);
+            "
+          >
+            <span></span>
+          </div>
+        </div>
+        <div class="cover">
+          <div class="pro">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/74780977?v=4);
+              "
+            ></div>
+          </div>
+          <h3>User Name</h3>
+          <div
+            class="bg"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/74780977?v=4);
+            "
+          >
+            <span></span>
+          </div>
+        </div>
+        <div class="cover">
+          <div class="pro">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://avatars.githubusercontent.com/u/91659838?v=4);
+              "
+            ></div>
+          </div>
+          <h3>User Name</h3>
+          <div
+            class="bg"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/91659838?v=4);
+            "
+          >
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="createPost">
+        <div class="input">
+          <div
+            class="globalRoundProfile"
+            style="background-image: url(./img/2.jpg)"
+          >
+            <span></span>
+          </div>
+          <div class="post">What's on your mind, FilipCodes YT?</div>
+        </div>
+
+        <div class="buttons">
+          <span>
+            <div class="svg">
+              <img src="./svg/live_video.svg" alt="" />
+            </div>
+            <h4>Live Video</h4>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/photo.svg" alt="" />
+            </div>
+            <h4>Photo/Video</h4>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/smile.svg" alt="" />
+            </div>
+            <h4>Feeling/Activity</h4>
+          </span>
+        </div>
+      </div>
+
+      <div class="rooms">
+        <div class="title">
+          <div class="left">
+            <i class="fas fa-video"></i>
+            <h3>Rooms</h3>
+            <p>Video chat with friends</p>
+            <i class="fas fa-exclamation-circle"></i>
+          </div>
+          <div class="right">
+            <a href="#">Create Room</a>
+          </div>
+        </div>
+        <div class="profiles">
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://pbs.twimg.com/profile_images/1256153505452130312/edFTku62_400x400.jpg);
+            "
+          >
+            <div class="svg">
+              <img src="./svg/plusWhite.svg" alt="" />
+            </div>
+            <span></span>
+            <div class="darkSpan"></div>
+          </div>
+
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://pbs.twimg.com/profile_images/1256153505452130312/edFTku62_400x400.jpg);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/95900008?v=4);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/81625153?v=4);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/41890434?v=4);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://avatars.githubusercontent.com/u/91659838?v=4);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ZSISYdF6-y0nzGznwjpNzijdnH9nnkYtDg&usqp=CAU);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAbZf0c6ywEbudo7VvhP_PJe9TB09AGVjFw&usqp=CAU);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ZSISYdF6-y0nzGznwjpNzijdnH9nnkYtDg&usqp=CAU);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAbZf0c6ywEbudo7VvhP_PJe9TB09AGVjFw&usqp=CAU);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAbZf0c6ywEbudo7VvhP_PJe9TB09AGVjFw&usqp=CAU);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://pbs.twimg.com/profile_images/1256153505452130312/edFTku62_400x400.jpg);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+          <div
+            class="globalRoundProfile"
+            style="
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAbZf0c6ywEbudo7VvhP_PJe9TB09AGVjFw&usqp=CAU);
+            "
+          >
+            <span></span>
+            <div class="active"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mainPosts">
+        <div class="title">
+          <div class="profile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://pbs.twimg.com/profile_images/1256153505452130312/edFTku62_400x400.jpg);
+              "
+            >
+              <span></span>
+            </div>
+
+            <div class="name">
+              <a href="#">PUNEETH Rajkumar</a>
+              <span>1h <i class="fas fa-globe-americas"></i></span>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+        </div>
+
+        <div
+          class="post"
+          style="
+            background-image: url(https://pbs.twimg.com/profile_images/1256153505452130312/edFTku62_400x400.jpg);
+          "
+        ></div>
+
+        <div class="reaction">
+          <div class="icons">
+            <div class="svg">
+              <img src="./svg/like.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/heart.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/care.svg" alt="" />
+            </div>
+            <a href="#">32k</a>
+          </div>
+        </div>
+
+        <div class="likeShare">
+          <span>
+            <div class="svg">
+              <img src="./svg/like_light.svg" alt="" />
+            </div>
+            <h3>Like</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/comment.svg" alt="" />
+            </div>
+            <h3>Comment</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/share.svg" alt="" />
+            </div>
+            <h3>Share</h3>
+          </span>
+        </div>
+      </div>
+
+      <div class="mainPosts">
+        <div class="title">
+          <div class="profile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ZSISYdF6-y0nzGznwjpNzijdnH9nnkYtDg&usqp=CAU);
+              "
+            >
+              <span></span>
+            </div>
+
+            <div class="name">
+              <a href="#">Nadal </a>
+              <span>1h <i class="fas fa-globe-americas"></i></span>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <div class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing e
+        </div>
+
+        <div
+          class="post"
+          style="
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ZSISYdF6-y0nzGznwjpNzijdnH9nnkYtDg&usqp=CAU);
+          "
+        ></div>
+
+        <div class="reaction">
+          <div class="icons">
+            <div class="svg">
+              <img src="./svg/like.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/heart.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/care.svg" alt="" />
+            </div>
+            <a href="#">32k</a>
+          </div>
+        </div>
+
+        <div class="likeShare">
+          <span>
+            <div class="svg">
+              <img src="./svg/like_light.svg" alt="" />
+            </div>
+            <h3>Like</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/comment.svg" alt="" />
+            </div>
+            <h3>Comment</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/share.svg" alt="" />
+            </div>
+            <h3>Share</h3>
+          </span>
+        </div>
+      </div>
+
+      <div class="mainPosts">
+        <div class="title">
+          <div class="profile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAbZf0c6ywEbudo7VvhP_PJe9TB09AGVjFw&usqp=CAU);
+              "
+            >
+              <span></span>
+            </div>
+
+            <div class="name">
+              <a href="#">Roger fedrer</a>
+              <span>1h <i class="fas fa-globe-americas"></i></span>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <div class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing e
+        </div>
+
+        <div
+          class="post"
+          style="
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAbZf0c6ywEbudo7VvhP_PJe9TB09AGVjFw&usqp=CAU);
+          "
+        ></div>
+
+        <div class="reaction">
+          <div class="icons">
+            <div class="svg">
+              <img src="./svg/like.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/heart.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/care.svg" alt="" />
+            </div>
+            <a href="#">32k</a>
+          </div>
+        </div>
+
+        <div class="likeShare">
+          <span>
+            <div class="svg">
+              <img src="./svg/like_light.svg" alt="" />
+            </div>
+            <h3>Like</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/comment.svg" alt="" />
+            </div>
+            <h3>Comment</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/share.svg" alt="" />
+            </div>
+            <h3>Share</h3>
+          </span>
+        </div>
+      </div>
+
+      <div class="mainPosts">
+        <div class="title">
+          <div class="profile">
+            <div
+              class="globalRoundProfile"
+              style="
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnxz1hrC0c4tAyMrZL8n2pk7YmWIvc6-j3Q&usqp=CAU);
+              "
+            >
+              <span></span>
+            </div>
+
+            <div class="name">
+              <a href="#">Novak</a>
+              <span>1h <i class="fas fa-globe-americas"></i></span>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <div class="description"></div>
+
+        <div
+          class="post"
+          style="
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnxz1hrC0c4tAyMrZL8n2pk7YmWIvc6-j3Q&usqp=CAU);
+          "
+        ></div>
+
+        <div class="reaction">
+          <div class="icons">
+            <div class="svg">
+              <img src="./svg/like.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/heart.svg" alt="" />
+            </div>
+            <div class="svg">
+              <img src="./svg/care.svg" alt="" />
+            </div>
+            <a href="#">32k</a>
+          </div>
+        </div>
+
+        <div class="likeShare">
+          <span>
+            <div class="svg">
+              <img src="./svg/like_light.svg" alt="" />
+            </div>
+            <h3>Like</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/comment.svg" alt="" />
+            </div>
+            <h3>Comment</h3>
+          </span>
+          <span>
+            <div class="svg">
+              <img src="./svg/share.svg" alt="" />
+            </div>
+            <h3>Share</h3>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
